@@ -29,9 +29,17 @@ function MonthlyCalendar({ selectedDate, onMonthChange, habits, getHabitCompleti
         </div>
       </div>
 
-      <div className="grid grid-cols-7 gap-1 text-xs font-medium text-surface-500 mb-2">
-        {['S', 'M', 'T', 'W', 'T', 'F', 'S'].map(day => (
-          <div key={day} className="text-center p-2">{day}</div>
+<div className="grid grid-cols-7 gap-1 text-xs font-medium text-surface-500 mb-2">
+        {[
+          { key: 'Sunday', display: 'S' },
+          { key: 'Monday', display: 'M' },
+          { key: 'Tuesday', display: 'T' },
+          { key: 'Wednesday', display: 'W' },
+          { key: 'Thursday', display: 'T' },
+          { key: 'Friday', display: 'F' },
+          { key: 'Saturday', display: 'S' }
+        ].map(day => (
+          <div key={day.key} className="text-center p-2">{day.display}</div>
         ))}
       </div>
 
