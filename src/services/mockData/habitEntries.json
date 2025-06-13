@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "habitId": "1",
+    "date": "2024-01-15",
+    "completed": true,
+    "completedAt": 1705315200000
+  },
+  {
+    "id": "2",
+    "habitId": "2",
+    "date": "2024-01-15",
+    "completed": true,
+    "completedAt": 1705318800000
+  },
+  {
+    "id": "3",
+    "habitId": "1",
+    "date": "2024-01-14",
+    "completed": true,
+    "completedAt": 1705228800000
+  },
+  {
+    "id": "4",
+    "habitId": "3",
+    "date": "2024-01-14",
+    "completed": false,
+    "completedAt": null
+  },
+  {
+    "id": "5",
+    "habitId": "2",
+    "date": "2024-01-13",
+    "completed": true,
+    "completedAt": 1705142400000
+  }
+]
